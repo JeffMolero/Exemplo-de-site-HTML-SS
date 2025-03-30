@@ -1,0 +1,106 @@
+/* Reset de margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Container centralizado */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0a2a32; /* Fundo escuro */
+  color: #fff;
+  padding: 20px 0;
+}
+
+.top-bar {
+  height: 5px;
+  background-color: #21d4b5; /* Verde-água */
+}
+
+header .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  margin: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #21d4b5;  /* Links em verde-água */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Seção Hero */
+.hero {
+  background-color: #0a2a32;
+  color: #fff;
+  text-align: center;
+  padding: 50px 20px;
+  margin-top: 20px;
+}
+
+.cta {
+  background-color: #21d4b5; /* Botão em verde-água */
+  border: none;
+  padding: 10px 20px;
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.card {
+  background-color: #0a2a32;
+  color: #fff;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #21d4b5; /* Detalhe em verde-água */
+  border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
